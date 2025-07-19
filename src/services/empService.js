@@ -4,3 +4,4 @@ const REST_API_BASE='http://localhost:8080/api/employees'
 export const listEmployees=()=>{
     return axios.get(REST_API_BASE);
 }
+export const createEmployee=(employee)=>axios.post(REST_API_BASE,employee)

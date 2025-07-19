@@ -16,7 +16,7 @@ const App = () => {
       <Route path='/employees' element={<ListEmployeeComponents />} />
       <Route path='/add-employee' element={<EmployeeComponent />} />
      </Routes>
-  <ListEmployeeComponents/>
+  
   <FooterComponent/>
   </BrowserRouter>
   
