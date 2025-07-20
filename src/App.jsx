@@ -15,6 +15,7 @@ const App = () => {
       <Route path='/' element={<ListEmployeeComponents />} />
       <Route path='/employees' element={<ListEmployeeComponents />} />
       <Route path='/add-employee' element={<EmployeeComponent />} />
+      <Route path='/edit-employee/:id' element={<EmployeeComponent />}/>
      </Routes>
   
   <FooterComponent/>
